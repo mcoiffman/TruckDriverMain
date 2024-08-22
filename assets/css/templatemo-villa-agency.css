@@ -425,7 +425,7 @@ Header Style
 .header-area .main-nav ul.nav {
   flex-basis: 100%;
   margin-top: 30px;
-  justify-content: right;
+  justify-content: center;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
@@ -464,13 +464,9 @@ Header Style
 }
 
 .header-area .main-nav .nav li:last-child a {
-  background-color: #1e1e1e;
-  color: #fff;
-  font-size: 14px;
-  font-weight: 400;
-  text-transform: none;
-  border-radius: 20px;
-  padding-left: 0px;
+  padding-left: 10px;
+  padding-right: 10px;
+  height: 40px;
 }
 
 .header-area .main-nav .nav li:last-child a i {
@@ -483,10 +479,6 @@ Header Style
   margin-right: 10px;
   border-radius: 50%;
   margin-left: -1px;
-}
-
-.header-area .main-nav .nav li:last-child:hover a {
-  background-color: #1e1e1e;
 }
 
 .header-area .main-nav .nav li:last-child:hover a i {
@@ -745,7 +737,7 @@ Banner Style
 }
 
 .main-banner .item-1 {
-  background-image: url(../images/banner-01.jpg);
+  background-image: url(../images/360_F_302250535_v4bgsyEsXX93skFtQExb3Alq7qL8m8SY.jpg);
 }
 
 .main-banner .item-2 {
@@ -1038,14 +1030,14 @@ Fun Facts Style
 .fun-facts .counter h2 {
   margin-right: 25px;
   font-size: 40px;
-  color: #f35525;
+  color: #b12f07;
 }
 
 .fun-facts .counter:after {
   position: absolute;
   width: 50px;
   height: 50px;
-  background-color: #f35525;
+  background-color: #b12f07;
   border-radius: 50%;
   content: '';
   right: -25px;
